@@ -33,7 +33,7 @@ const BookCollection = () => {
     <div>
       <header className="page-header">
         <div className="header-wrapper">
-          <h1>Google Play</h1>
+          <h1>Kalvium_Books</h1>
           <input type="text" placeholder="Search Books" value={searchInput} onChange={handleSearchInput} />
           <Link to="/register">
             <button className="signup-button">Register</button>
