@@ -1,0 +1,58 @@
+.body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.book-item {
+    padding: 19px;
+    text-align: center;
+}
+
+.book-item img {
+    margin-bottom: 11px;
+}
+
+.book-details {
+    text-align: center;
+}
+
+.book-details h3 {
+    font-size: 20px;
+}
+
+.page-header {
+    padding: 19px;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.page-header h1 {
+    font-size: 27px;
+    white-space: nowrap;
+    color: black;
+}
+
+.page-header input {
+    margin: 0 20px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.signup-button {
+    color: red;
+    border-radius: 0;
+    border: 3px solid black;
+    padding: 10px 40px;
+}
+
+.book-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+    padding: 40px 20px;
+}

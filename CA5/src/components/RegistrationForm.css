@@ -1,0 +1,63 @@
+form {
+    width: 350px;
+    padding: 30px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    background-color: #ebebe0;
+  }
+  
+  span.error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: -15px;
+    margin-bottom: 15px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  div {
+    width: 100%;
+  }
+  
+  div label {
+    margin-left: 5px;
+  }
+  
+  div a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  div a:hover {
+    text-decoration: underline;
+  }
+  
